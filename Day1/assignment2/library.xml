@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="library.css"?>
+<library>
+    <location>Alexanria</location>
+    <description>A specialized library focusing on programming and computer science literature.</description>
+    <librarian>Mohamed Ali</librarian>
+    <books>
+        <book>
+            <title>Learning Python</title>
+            <ISBN>9876543210</ISBN>
+            <author>Mark Lutz</author>
+            <preface>
+                <section>An introduction to the Python programming language.</section>
+            </preface>
+            <parts>
+                <part>
+                    <title>Getting Started</title>
+                    <chapters>
+                        <chapter>
+                            <title>Introduction to Python</title>
+                            <summary>This chapter introduces Python and its philosophy.</summary>
+                            <sections>
+                                <section>The history of Python.</section>
+                                <section>Python's place in the programming world.</section>
+                                <!-- More sections-->
+                            </sections>
+                        </chapter>
+                        <!-- More chapters-->
+                    </chapters>
+                </part>
+                <!-- More parts-->
+            </parts>
+        </book>
+    
+        <book>
+            <title>Clean Code: A Handbook of Agile Software Craftsmanship</title>
+            <ISBN>1333333333</ISBN>
+            <author>Robert C. Martin</author>
+            <preface>
+                <section>Principles, patterns, and practices of writing clean code.</section>
+            </preface>
+            <parts>
+                <part>
+                    <title>Principles</title>
+                    <chapters>
+                        <chapter>
+                            <title>Meaningful Names</title>
+                            <summary>The importance of naming conventions for readability and maintainability.</summary>
+                            <sections>
+                                <section>Use Intention-Revealing Names.</section>
+                                <section>Avoid Disinformation.</section>
+                                <section>Make Meaningful Distinctions.</section>
+                                <!-- More sections-->
+                            </sections>
+                        </chapter>
+                        <!-- More chapters-->
+                    </chapters>
+                </part>
+                <!-- More parts-->
+            </parts>
+        </book>
+    </books>
+</library>

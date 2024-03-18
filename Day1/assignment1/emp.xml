@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="emp.css"?>
+<employees>
+    <employee>
+        <name>Mohamed ALi</name>
+        <phones>
+            <phone type="phone1">011</phone>
+            <phone type="phone2">012</phone>
+        </phones>
+        <addresses>
+            <address>
+                <Street>Ahmed 1 st</Street>
+                <BuildingNumber>88</BuildingNumber>
+                <Region>Semouha</Region>
+                <City>Alexandria</City>
+                <Country>Egypt</Country>
+            </address>
+        </addresses>
+        <email>mohamed1@test.com</email>
+    </employee>
+    <employee>
+        <name>Osama ALi</name>
+        <phones>
+            <phone type="phone1">011</phone>
+            <phone type="phone2">012</phone>
+        </phones>
+        <addresses>
+            <address>
+                <Street>Ahmed 2 st</Street>
+                <BuildingNumber>99</BuildingNumber>
+                <Region>Semouha</Region>
+                <City>Alexandria</City>
+                <Country>Egypt</Country>
+            </address>
+        </addresses>
+        <email>osama@test.com</email>
+    </employee>
+</employees>
