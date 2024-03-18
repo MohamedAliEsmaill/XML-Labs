@@ -19,7 +19,6 @@
         <button type="submit" name="action" value="Insert" class="btn btn-primary me-2">Insert</button>
         <button type="submit" name="action" value="Update" class="btn btn-secondary me-2">Update</button>
         <button type="submit" name="action" value="Delete" class="btn btn-danger me-2">Delete</button>
-        <button class="btn btn-outline-secondary" type="submit" name="action" value="Search">Search</button>
     </div>
     <div class="mb-3">
         <div class="input-group">
@@ -30,6 +29,7 @@
                 <option value="address">Address</option>
                 <option value="email">Email</option>
             </select>
+            <button class="btn btn-outline-secondary" type="submit" name="action" value="Search">Search</button>
         </div>
     </div>
 </form>
