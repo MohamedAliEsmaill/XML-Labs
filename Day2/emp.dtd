@@ -1,0 +1,16 @@
+<!DOCTYPE employees [
+	<!ELEMENT employees (employee+)>
+	<!ELEMENT employee (name, phones, addresses, email)>
+	<!ELEMENT name (#PCDATA)>
+	<!ELEMENT phones (phone+)>
+	<!ELEMENT phone (#PCDATA)>
+	<!ELEMENT addresses (address+)>
+	<!ELEMENT address (street, buildingNumber, region, city, country)>
+	<!ELEMENT street (#PCDATA)>
+	<!ELEMENT buildingNumber (#PCDATA)>
+	<!ELEMENT region (#PCDATA)>
+	<!ELEMENT city (#PCDATA)>
+	<!ELEMENT country (#PCDATA)>
+	<!ELEMENT email (#PCDATA)>
+	<!ATTLIST phone type (home|work|mobile) #REQUIRED>
+]>

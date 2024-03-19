@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="emp.css"?>
+<employees xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xs:noNamespaceSchemaLocation="emp.xsd">
+<employees>
+    <employee>
+        <name>Mohamed ALi</name>
+        <phones>
+            <phone type="work">011</phone>
+            <phone type="home">012</phone>
+        </phones>
+        <addresses>
+            <address>
+                <street>Ahmed 1 st</street>
+                <buildingNumber>88</buildingNumber>
+                <region>Semouha</region>
+                <city>Alexandria</city>
+                <country>Egypt</country>
+            </address>
+        </addresses>
+        <email>mohamed1@test.com</email>
+    </employee>
+    <employee>
+        <name>Osama ALi</name>
+        <phones>
+            <phone type="work">011</phone>
+            <phone type="home">012</phone>
+        </phones>
+        <addresses>
+            <address>
+                <street>Ahmed 2 st</street>
+                <buildingNumber>99</buildingNumber>
+                <region>Semouha</region>
+                <city>Alexandria</city>
+                <country>Egypt</country>
+            </address>
+        </addresses>
+        <email>osama@test.com</email>
+    </employee>
+</employees>
